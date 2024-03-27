@@ -26,7 +26,7 @@ function gotPoses(results)
   {
     console.log(results);
     philtrumX = results[0].pose.nose.x;
-    philtrumY = results[0].pose.nose.y - 10;
+    philtrumY = results[0].pose.nose.y + 10;
   }
 }
 
